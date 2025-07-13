@@ -1,15 +1,24 @@
-import shap
 import matplotlib.pyplot as plt
+import shap
+from sklearn.linear_model import LogisticRegression
+from xgboost import XGBClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+import numpy as np
 
 # 📌 1. SHAP Explainer nesnesi
 def get_explainer(model):
-    """
-    Modele uygun SHAP explainer nesnesini döndürür.
-    """
-    if hasattr(model, "predict_proba") and "tree" in str(type(model)).lower():
+    if isinstance(model, (RandomForestClassifier, XGBClassifier)):
         return shap.TreeExplainer(model)
+
+    elif isinstance(model, LogisticRegression):
+        return shap.LinearExplainer(model, masker=shap.maskers.Independent(np.zeros((1, model.n_features_in_))))
+
+    elif isinstance(model, SVC):
+        return shap.KernelExplainer(model.predict_proba, shap.sample_background)
+
     else:
-        return shap.Explainer(model)
+        raise ValueError("Unsupported model type for SHAP explainer")
 
 # 📌 2. SHAP değerlerini hesapla
 def get_shap_values(explainer, input_df):

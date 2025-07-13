@@ -217,21 +217,6 @@ input_data = {
 - **Logistic Regression**: Fast inference, good baseline
 - **SVM**: Effective for high-dimensional data
 
-## Screenshots
-
-### 🖥️ Main Interface
-![Main Interface](https://via.placeholder.com/800x400/667eea/ffffff?text=Main+Interface)
-
-### 📊 Risk Assessment
-![Risk Assessment](https://via.placeholder.com/800x400/764ba2/ffffff?text=Risk+Assessment)
-
-### 🧠 SHAP Analysis
-![SHAP Analysis](https://via.placeholder.com/800x400/11998e/ffffff?text=SHAP+Analysis)
-
-### 📱 Mobile Responsive
-![Mobile View](https://via.placeholder.com/400x600/ff6b6b/ffffff?text=Mobile+View)
-
-
 ### 📁 Project Structure
 ```
 depression-risk-analysis/
@@ -468,20 +453,6 @@ input_data = {
 - **Random Forest**: İyi yorumlanabilirlik, aykırı değerlere karşı dayanıklı
 - **Logistic Regression**: Hızlı çıkarım, iyi temel
 - **SVM**: Yüksek boyutlu veriler için etkili
-
-## Ekran Görüntüleri
-
-### 🖥️ Ana Arayüz
-![Ana Arayüz](https://via.placeholder.com/800x400/667eea/ffffff?text=Ana+Arayüz)
-
-### 📊 Risk Değerlendirmesi
-![Risk Değerlendirmesi](https://via.placeholder.com/800x400/764ba2/ffffff?text=Risk+Değerlendirmesi)
-
-### 🧠 SHAP Analizi
-![SHAP Analizi](https://via.placeholder.com/800x400/11998e/ffffff?text=SHAP+Analizi)
-
-### 📱 Mobil Responsive
-![Mobil Görünüm](https://via.placeholder.com/400x600/ff6b6b/ffffff?text=Mobil+Görünüm)
 
 ### 📁 Proje Yapısı
 ```

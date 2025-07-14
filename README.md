@@ -24,7 +24,6 @@
   - [Usage](#usage)
   - [Model Performance](#model-performance)
   - [Screenshots](#screenshots)
-  - [Architecture](#architecture)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -36,7 +35,6 @@
   - [Kullanım](#kullanım)
   - [Model Performansı](#model-performansı)
   - [Ekran Görüntüleri](#ekran-görüntüleri)
-  - [Mimari](#mimari)
   - [Katkıda Bulunma](#katkıda-bulunma)
   - [Lisans](#lisans)
 
@@ -119,7 +117,7 @@ plotly == 5.15+             # Interactive charts
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/Efe-Eroglu/depression-risk-analysis.git
+git clone https://github.com/Efe-Eroglu/xai-depression-predictor.git
 cd depression-risk-analysis
 ```
 
@@ -242,7 +240,7 @@ depression-risk-analysis/
 
 1. **Fork the Repository**
 ```bash
-git clone https://github.com/Efe-Eroglu/depression-risk-analysis.git
+git clone https://github.com/Efe-Eroglu/xai-depression-predictor.git
 ```
 
 2. **Create Feature Branch**
@@ -356,7 +354,7 @@ plotly == 5.15+             # İnteraktif grafikler
 
 1. **Repository'yi Klonlayın**
 ```bash
-git clone https://github.com/Efe-Eroglu/depression-risk-analysis.git
+git clone https://github.com/Efe-Eroglu/xai-depression-predictor.git
 cd depression-risk-analysis
 ```
 
@@ -479,7 +477,7 @@ depression-risk-analysis/
 
 1. **Repository'yi Fork Edin**
 ```bash
-git clone https://github.com/Efe-Eroglu/depression-risk-analysis.git
+git clone https://github.com/Efe-Eroglu/xai-depression-predictor.git
 ```
 
 2. **Özellik Dalı Oluşturun**
